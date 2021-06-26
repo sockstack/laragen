@@ -1,0 +1,19 @@
+{
+    "name": "sockstack/laragen",
+    "autoload": {
+        "psr-4": {
+            "Sockstack\\Laragen\\": "src/"
+        }
+    },
+    "require": {
+        "sockstack/service": "^1.0",
+        "sockstack/repository": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sockstack\\Laragen\\LaragenProvider"
+            ]
+        }
+    }
+}
