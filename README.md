@@ -49,7 +49,7 @@ php artisan make:repository User/UserRepository
 ```php
 <?php
 
-namespace App\Repositorys\User;
+namespace App\Repositories\User;
 
 class UserRepository
 {
